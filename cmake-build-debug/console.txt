@@ -1,0 +1,14 @@
+Semester 1:
+Alg - 4
+Math - 3
+GPA: 3.6, Credits: 5 ECTS
+
+Semester 2:
+Data - 5
+C++ - 5
+GPA: 5, Credits: 7 ECTS
+
+----------------------------------------------------------------
+
+Total:
+GPA: 4.41667, Credits: 12 ECTS
