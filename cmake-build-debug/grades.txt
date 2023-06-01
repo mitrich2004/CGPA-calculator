@@ -1,26 +1,26 @@
 Semester 1:
-Algebra 5 6
-History 5 3
-IT Environment 5 4
-Computer Science 5 6
-Programming 5 6
-Legal Aspects 5 1
-Logic 4.5 4
+Algebra,5,6
+History,5,3
+IT Environment,5,4
+Computer Science,5,6
+Programming,5,6
+Legal Aspects,5,1
+Logic,4.5,4
 
 Semester 2:
-Architecture 4.5 3
-Basic Programming 5 3
-German 5 2
-Operating Systems 5 6
-Math 5 6
-Data Structures 5 6
-Graphics 5 4
+Architecture,4.5,3
+Basic Programming,5,3
+German,5,2
+Operating Systems,5,6
+Math,5,6
+Data Structures,5,6
+Graphics,5,4
 
 Semester 3:
-Algorithms 5 5
-Unity 5 3
-Math 5 6
-German 5 5
-Databases 5 6
-Python 5 2
-OOP 5 5
+Algorithms,5,5
+Unity,5,3
+Math,5,6
+German,5,5
+Databases,5,6
+Python,5,2
+OOP,5,5

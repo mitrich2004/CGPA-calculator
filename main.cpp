@@ -17,11 +17,11 @@ std::vector<std::vector<Subject>> read_file(const std::string &filename) {
         std::stringstream line_stream(line);
         std::vector<std::string> data;
 
-        while (std::getline(line_stream, item, ' ')) {
+        while (std::getline(line_stream, item, ',')) {
             data.push_back(item);
         }
 
-        if (data.size() == 2) {
+        if (data.size() == 1) {
             course.emplace_back();
             ++n_of_semesters;
         } else if (data.size() == 3) {

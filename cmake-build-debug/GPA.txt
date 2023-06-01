@@ -1,19 +1,25 @@
 Semester 1:
 Algebra - 5
 History - 5
+IT Environment - 5
+Computer Science - 5
 Programming - 5
+Legal Aspects - 5
 Logic - 4.5
-GPA: 4.89474, Credits: 19 ECTS
+GPA: 4.93333, Credits: 30 ECTS
 
 Semester 2:
 Architecture - 4.5
+Basic Programming - 5
 German - 5
+Operating Systems - 5
 Math - 5
+Data Structures - 5
 Graphics - 5
-GPA: 4.9, Credits: 15 ECTS
+GPA: 4.95, Credits: 30 ECTS
 
 Year 1:
-GPA: 4.89706, Credits: 34 ECTS
+GPA: 4.94167, Credits: 60 ECTS
 
 ----------------------------------------------------------------
 
@@ -30,4 +36,4 @@ GPA: 5, Credits: 32 ECTS
 ----------------------------------------------------------------
 
 Total:
-GPA: 4.94697, Credits: 66 ECTS
+GPA: 4.96196, Credits: 92 ECTS
