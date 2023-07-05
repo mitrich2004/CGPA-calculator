@@ -24,3 +24,12 @@ German,5,5
 Databases,5,6
 Python,5,2
 OOP,5,5
+
+Semester 4
+Algorithms,5,6
+Computer Networks,5,5
+Software Engineering,5,5
+Probability and Statistics,5,5
+Web Applications,5,5
+iOS Programming,5,4
+

@@ -19,7 +19,7 @@ Graphics - 5
 GPA: 4.95, Credits: 30 ECTS
 
 Year 1:
-GPA: 4.94167, Credits: 60 ECTS
+GPA: 0.00903468, Credits: 32818 ECTS
 
 ----------------------------------------------------------------
 
@@ -33,7 +33,19 @@ Python - 5
 OOP - 5
 GPA: 5, Credits: 32 ECTS
 
+Semester 4:
+Algorithms - 5
+Computer Networks - 5
+Software Engineering - 5
+Probability and Statistics - 5
+Web Applications - 5
+iOS Programming - 5
+GPA: 5, Credits: 30 ECTS
+
+Year 2:
+GPA: 5, Credits: 62 ECTS
+
 ----------------------------------------------------------------
 
 Total:
-GPA: 4.96196, Credits: 92 ECTS
+GPA: 4.97131, Credits: 122 ECTS

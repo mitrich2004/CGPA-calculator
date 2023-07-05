@@ -66,8 +66,8 @@ std::vector<std::vector<Subject>> read_console() {
 }
 
 void write_file(std::vector<std::vector<Subject>> &course, const std::string &filename) {
-    float grade, semester_grade, total_grade = 0.0f;
-    int ECTS, semester_ECTS, total_ECTS = 0;
+    float grade, semester_grade, year_grade, total_grade = 0.0f;
+    int ECTS, semester_ECTS, year_ECTS, total_ECTS = 0;
 
     std::ofstream file_out;
     file_out.open(filename);
@@ -88,13 +88,20 @@ void write_file(std::vector<std::vector<Subject>> &course, const std::string &fi
         }
 
         file_out << "GPA: " << semester_grade / float(semester_ECTS) << ", Credits: " << semester_ECTS << " ECTS\n\n";
+        year_grade += semester_grade;
+        year_ECTS += semester_ECTS;
         total_grade += semester_grade;
         total_ECTS += semester_ECTS;
 
         if (n_of_semesters > 2 && (i + 1) % 2 == 0) {
-            file_out << "Year " << i / 2 + 1 << ":\n" << "GPA: " << total_grade / float(total_ECTS) << ", Credits: "
-                     << total_ECTS << " ECTS\n\n";
-            file_out << "----------------------------------------------------------------\n\n";
+            file_out << "Year " << i / 2 + 1 << ":\n" << "GPA: " << year_grade / float(year_ECTS) << ", Credits: "
+                     << year_ECTS << " ECTS\n\n";
+            if (i < n_of_semesters - 1)
+            {
+                file_out << "----------------------------------------------------------------\n\n";
+            }
+            year_grade = 0.0f;
+            year_ECTS = 0;
         }
     }
 
