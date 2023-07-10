@@ -19,7 +19,7 @@ Graphics - 5
 GPA: 4.95, Credits: 30 ECTS
 
 Year 1:
-GPA: 0.00903468, Credits: 32818 ECTS
+GPA: 4.94167, Credits: 60 ECTS
 
 ----------------------------------------------------------------
 

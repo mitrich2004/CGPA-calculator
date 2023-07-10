@@ -67,7 +67,7 @@ std::vector<std::vector<Subject>> read_console() {
 
 void write_file(std::vector<std::vector<Subject>> &course, const std::string &filename) {
     float grade, semester_grade, year_grade, total_grade = 0.0f;
-    int ECTS, semester_ECTS, year_ECTS, total_ECTS = 0;
+    int ECTS, semester_ECTS, year_ECTS = 0, total_ECTS = 0;
 
     std::ofstream file_out;
     file_out.open(filename);
